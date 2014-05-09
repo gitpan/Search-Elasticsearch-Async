@@ -1,5 +1,5 @@
 package Search::Elasticsearch::CxnPool::Async::Sniff;
-$Search::Elasticsearch::CxnPool::Async::Sniff::VERSION = '1.11';
+$Search::Elasticsearch::CxnPool::Async::Sniff::VERSION = '1.12';
 use Moo;
 with 'Search::Elasticsearch::Role::CxnPool::Sniff',
     'Search::Elasticsearch::Role::Is_Async';
@@ -142,7 +142,7 @@ Search::Elasticsearch::CxnPool::Async::Sniff - An async CxnPool for connecting t
 
 =head1 VERSION
 
-version 1.11
+version 1.12
 
 =head1 SYNOPSIS
 

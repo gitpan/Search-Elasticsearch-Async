@@ -3,7 +3,7 @@ NAME
     Promises
 
 VERSION
-    version 1.11
+    version 1.12
 
 SYNOPSIS
         use Search::Elasticsearch::Async;
@@ -456,8 +456,9 @@ MODULES
     *   Search::Elasticsearch::Serializer::JSON::PP
 
 HELPER MODULES
-    Elasticsearch::Async::Bulk and Elasticsearch::Async::Scroll are helper
-    modules which assist with bulk indexing and scrolled searching, eg:
+    Search::Elasticsearch::Async::Bulk and
+    Search::Elasticsearch::Async::Scroll are helper modules which assist
+    with bulk indexing and scrolled searching, eg:
 
         $es->scroll_helper(
             index     => 'myindex',

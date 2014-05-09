@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Transport::Async;
-$Search::Elasticsearch::Transport::Async::VERSION = '1.11';
+$Search::Elasticsearch::Transport::Async::VERSION = '1.12';
 use Moo;
 with 'Search::Elasticsearch::Role::Is_Async',
     'Search::Elasticsearch::Role::Transport';
@@ -87,7 +87,7 @@ Search::Elasticsearch::Transport::Async - Provides async interface between the c
 
 =head1 VERSION
 
-version 1.11
+version 1.12
 
 =head1 DESCRIPTION
 

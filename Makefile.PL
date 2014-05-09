@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     "Moo::Role" => 0,
     "Promises" => "0.93",
     "Scalar::Util" => 0,
-    "Search::Elasticsearch" => "1.11",
+    "Search::Elasticsearch" => "1.12",
     "Sub::Exporter" => 0,
     "Time::HiRes" => 0,
     "Try::Tiny" => 0,
@@ -51,7 +51,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.11",
+  "VERSION" => "1.12",
   "test" => {
     "TESTS" => "t/*.t t/10_Basic_Async/*.t t/20_Serializer_Async/*.t t/30_Logger_Async/*.t t/40_Transport_Async/*.t t/50_Cxn_Pool_Async/*.t t/60_Cxn_Async/*.t t/70_Helper_Async/*.t t/90_Client_Spec_Async/*.t"
   }
@@ -73,7 +73,7 @@ my %FallbackPrereqs = (
   "Moo::Role" => 0,
   "Promises" => "0.93",
   "Scalar::Util" => 0,
-  "Search::Elasticsearch" => "1.11",
+  "Search::Elasticsearch" => "1.12",
   "Sub::Exporter" => 0,
   "Test::Deep" => 0,
   "Test::Exception" => 0,

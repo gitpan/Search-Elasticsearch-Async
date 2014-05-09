@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Cxn::Mojo;
-$Search::Elasticsearch::Cxn::Mojo::VERSION = '1.11';
+$Search::Elasticsearch::Cxn::Mojo::VERSION = '1.12';
 use Mojo::UserAgent();
 use Promises qw(deferred);
 use Try::Tiny;
@@ -93,7 +93,7 @@ Search::Elasticsearch::Cxn::Mojo - An async Cxn implementation which uses Mojo::
 
 =head1 VERSION
 
-version 1.11
+version 1.12
 
 =head1 DESCRIPTION
 
