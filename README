@@ -3,7 +3,7 @@ NAME
     Promises
 
 VERSION
-    version 1.12
+    version 1.13
 
 SYNOPSIS
         use Search::Elasticsearch::Async;

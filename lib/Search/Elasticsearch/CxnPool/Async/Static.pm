@@ -1,5 +1,5 @@
 package Search::Elasticsearch::CxnPool::Async::Static;
-$Search::Elasticsearch::CxnPool::Async::Static::VERSION = '1.12';
+$Search::Elasticsearch::CxnPool::Async::Static::VERSION = '1.13';
 use Moo;
 with 'Search::Elasticsearch::Role::CxnPool::Static',
     'Search::Elasticsearch::Role::Is_Async';
@@ -82,7 +82,7 @@ Search::Elasticsearch::CxnPool::Async::Static - An async CxnPool for connecting 
 
 =head1 VERSION
 
-version 1.12
+version 1.13
 
 =head1 SYNOPSIS
 

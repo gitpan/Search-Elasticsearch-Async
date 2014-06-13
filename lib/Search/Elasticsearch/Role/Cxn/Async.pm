@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Role::Cxn::Async;
-$Search::Elasticsearch::Role::Cxn::Async::VERSION = '1.12';
+$Search::Elasticsearch::Role::Cxn::Async::VERSION = '1.13';
 use Moo::Role;
 
 use Search::Elasticsearch::Util qw(new_error);
@@ -66,7 +66,7 @@ Search::Elasticsearch::Role::Cxn::Async - Provides common functionality to async
 
 =head1 VERSION
 
-version 1.12
+version 1.13
 
 =head1 DESCRIPTION
 
