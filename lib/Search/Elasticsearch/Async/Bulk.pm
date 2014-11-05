@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Async::Bulk;
-$Search::Elasticsearch::Async::Bulk::VERSION = '1.13';
+$Search::Elasticsearch::Async::Bulk::VERSION = '1.15';
 use Moo;
 with 'Search::Elasticsearch::Role::Bulk',
     'Search::Elasticsearch::Role::Is_Async';
@@ -206,7 +206,7 @@ Search::Elasticsearch::Async::Bulk - A helper module for the Bulk API and for re
 
 =head1 VERSION
 
-version 1.13
+version 1.15
 
 =head1 SYNOPSIS
 

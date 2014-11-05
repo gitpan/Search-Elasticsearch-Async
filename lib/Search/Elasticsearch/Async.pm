@@ -8,7 +8,7 @@ extends 'Search::Elasticsearch';
 use Search::Elasticsearch::Util qw(parse_params);
 use namespace::clean;
 
-our $VERSION = '1.13';
+our $VERSION = '1.15';
 
 #===================================
 sub new {
@@ -41,7 +41,7 @@ Search::Elasticsearch::Async - Async API for Elasticsearch using Promises
 
 =head1 VERSION
 
-version 1.13
+version 1.15
 
 =head1 SYNOPSIS
 
