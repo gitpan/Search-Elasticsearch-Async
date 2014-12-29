@@ -1,6 +1,6 @@
 package Search::Elasticsearch::Async;
 
-use Search::Elasticsearch 1.13;
+use Search::Elasticsearch 1.17;
 
 use Promises 0.93 ();
 use Moo 1.003;
@@ -8,7 +8,7 @@ extends 'Search::Elasticsearch';
 use Search::Elasticsearch::Util qw(parse_params);
 use namespace::clean;
 
-our $VERSION = '1.15';
+our $VERSION = '1.17';
 
 #===================================
 sub new {
@@ -41,7 +41,7 @@ Search::Elasticsearch::Async - Async API for Elasticsearch using Promises
 
 =head1 VERSION
 
-version 1.15
+version 1.17
 
 =head1 SYNOPSIS
 

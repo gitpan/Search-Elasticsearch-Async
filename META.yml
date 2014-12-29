@@ -22,7 +22,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: '0'
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.140640'
+generated_by: 'Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240'
 license: apache
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -37,7 +37,7 @@ requires:
   Moo::Role: '0'
   Promises: '0.93'
   Scalar::Util: '0'
-  Search::Elasticsearch: '1.13'
+  Search::Elasticsearch: '1.17'
   Sub::Exporter: '0'
   Time::HiRes: '0'
   Try::Tiny: '0'
@@ -45,4 +45,4 @@ requires:
 resources:
   bugtracker: https://github.com/elasticsearch/elasticsearch-perl/issues
   repository: git://github.com/elasticsearch/elasticsearch-perl.git
-version: '1.15'
+version: '1.17'

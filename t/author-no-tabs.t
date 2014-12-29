@@ -1,15 +1,15 @@
 
 BEGIN {
-  unless ($ENV{RELEASE_TESTING}) {
+  unless ($ENV{AUTHOR_TESTING}) {
     require Test::More;
-    Test::More::plan(skip_all => 'these tests are for release candidate testing');
+    Test::More::plan(skip_all => 'these tests are for testing by the author');
   }
 }
 
 use strict;
 use warnings;
 
-# this test was generated with Dist::Zilla::Plugin::Test::NoTabs 0.08
+# this test was generated with Dist::Zilla::Plugin::Test::NoTabs 0.09
 
 use Test::More 0.88;
 use Test::NoTabs;
@@ -93,6 +93,8 @@ my @files = (
     't/70_Helper_Async/50_scroll.t',
     't/70_Helper_Async/60_reindex.t',
     't/90_Client_Spec_Async/00_print_version.t',
+    't/author-eol.t',
+    't/author-no-tabs.t',
     't/lib/LogCallback.pl',
     't/lib/MockAsyncCxn.pm',
     't/lib/MockAsyncTransport.pm',
@@ -102,8 +104,6 @@ my @files = (
     't/lib/es_async_fork.pl',
     't/lib/es_sync.pl',
     't/lib/index_test_data.pl',
-    't/release-eol.t',
-    't/release-no-tabs.t',
     't/release-pod-syntax.t'
 );
 

@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Cxn::Mojo;
-$Search::Elasticsearch::Cxn::Mojo::VERSION = '1.15';
+$Search::Elasticsearch::Cxn::Mojo::VERSION = '1.17';
 use Mojo::UserAgent();
 use Promises qw(deferred);
 use Try::Tiny;
@@ -82,14 +82,11 @@ sub error_from_text {
 sub _build_handle {
 #===================================
     my $self = shift;
-    my $ua   = Mojo::UserAgent->new;
+    my %args = %{ $self->handle_args };
     if ( $self->is_https && $self->has_ssl_options ) {
-        my %opts = %{ $self->ssl_options };
-        for ( keys %opts ) {
-            $ua = $ua->$_( $opts{$_} );
-        }
+        %args = ( %args, %{ $self->ssl_options } );
     }
-    return $ua;
+    return Mojo::UserAgent->new(%args);
 }
 1;
 
@@ -107,7 +104,7 @@ Search::Elasticsearch::Cxn::Mojo - An async Cxn implementation which uses Mojo::
 
 =head1 VERSION
 
-version 1.15
+version 1.17
 
 =head1 DESCRIPTION
 

@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Cxn::AEHTTP;
-$Search::Elasticsearch::Cxn::AEHTTP::VERSION = '1.15';
+$Search::Elasticsearch::Cxn::AEHTTP::VERSION = '1.17';
 use AnyEvent::HTTP qw(http_request);
 use Promises qw(deferred);
 use Try::Tiny;
@@ -44,6 +44,7 @@ sub perform_request {
         body => $data,
         persistent => 0,
         session    => $self->_pid,
+        ( %{ $self->handle_args } ),
         ( $self->is_https ? ( tls_ctx => $self->_tls_ctx ) : () ),
         sub {
             my ( $body, $headers ) = @_;
@@ -92,7 +93,7 @@ Search::Elasticsearch::Cxn::AEHTTP - An async Cxn implementation which uses AnyE
 
 =head1 VERSION
 
-version 1.15
+version 1.17
 
 =head1 DESCRIPTION
 
