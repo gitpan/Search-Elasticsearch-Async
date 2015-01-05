@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Cxn::AEHTTP;
-$Search::Elasticsearch::Cxn::AEHTTP::VERSION = '1.17';
+$Search::Elasticsearch::Cxn::AEHTTP::VERSION = '1.18';
 use AnyEvent::HTTP qw(http_request);
 use Promises qw(deferred);
 use Try::Tiny;
@@ -93,7 +93,7 @@ Search::Elasticsearch::Cxn::AEHTTP - An async Cxn implementation which uses AnyE
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 DESCRIPTION
 
@@ -280,7 +280,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

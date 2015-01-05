@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Async::Scroll;
-$Search::Elasticsearch::Async::Scroll::VERSION = '1.17';
+$Search::Elasticsearch::Async::Scroll::VERSION = '1.18';
 use Moo;
 use Search::Elasticsearch::Util qw(parse_params throw);
 use Search::Elasticsearch::Async::Util qw(thenable);
@@ -213,7 +213,7 @@ Search::Elasticsearch::Async::Scroll - A helper module for scrolled searches
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 SYNOPSIS
 
@@ -569,7 +569,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

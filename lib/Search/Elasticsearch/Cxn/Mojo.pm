@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Cxn::Mojo;
-$Search::Elasticsearch::Cxn::Mojo::VERSION = '1.17';
+$Search::Elasticsearch::Cxn::Mojo::VERSION = '1.18';
 use Mojo::UserAgent();
 use Promises qw(deferred);
 use Try::Tiny;
@@ -104,7 +104,7 @@ Search::Elasticsearch::Cxn::Mojo - An async Cxn implementation which uses Mojo::
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 DESCRIPTION
 
@@ -295,7 +295,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

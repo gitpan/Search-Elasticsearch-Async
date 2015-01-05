@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Role::Cxn::Async;
-$Search::Elasticsearch::Role::Cxn::Async::VERSION = '1.17';
+$Search::Elasticsearch::Role::Cxn::Async::VERSION = '1.18';
 use Moo::Role;
 
 use Search::Elasticsearch::Util qw(new_error);
@@ -66,7 +66,7 @@ Search::Elasticsearch::Role::Cxn::Async - Provides common functionality to async
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 DESCRIPTION
 
@@ -107,7 +107,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

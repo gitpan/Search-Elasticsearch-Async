@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Transport::Async;
-$Search::Elasticsearch::Transport::Async::VERSION = '1.17';
+$Search::Elasticsearch::Transport::Async::VERSION = '1.18';
 use Moo;
 with 'Search::Elasticsearch::Role::Is_Async',
     'Search::Elasticsearch::Role::Transport';
@@ -87,7 +87,7 @@ Search::Elasticsearch::Transport::Async - Provides async interface between the c
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 DESCRIPTION
 
@@ -182,7 +182,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

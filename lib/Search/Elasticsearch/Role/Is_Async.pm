@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Role::Is_Async;
-$Search::Elasticsearch::Role::Is_Async::VERSION = '1.17';
+$Search::Elasticsearch::Role::Is_Async::VERSION = '1.18';
 use Moo::Role;
 use namespace::clean;
 
@@ -19,7 +19,7 @@ Search::Elasticsearch::Role::Is_Async - A role to mark classes which should be u
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 AUTHOR
 
@@ -27,7 +27,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

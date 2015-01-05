@@ -1,5 +1,5 @@
 package Search::Elasticsearch::CxnPool::Async::Static::NoPing;
-$Search::Elasticsearch::CxnPool::Async::Static::NoPing::VERSION = '1.17';
+$Search::Elasticsearch::CxnPool::Async::Static::NoPing::VERSION = '1.18';
 use Moo;
 with 'Search::Elasticsearch::Role::CxnPool::Static::NoPing',
     'Search::Elasticsearch::Role::Is_Async';
@@ -42,7 +42,7 @@ Search::Elasticsearch::CxnPool::Async::Static::NoPing - An async CxnPool for con
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 SYNOPSIS
 
@@ -187,7 +187,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

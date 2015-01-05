@@ -53,7 +53,7 @@ my %WriteMakefileArgs = (
     "strict" => 0,
     "warnings" => 0
   },
-  "VERSION" => "1.17",
+  "VERSION" => "1.18",
   "test" => {
     "TESTS" => "t/*.t t/10_Basic_Async/*.t t/20_Serializer_Async/*.t t/30_Logger_Async/*.t t/40_Transport_Async/*.t t/50_Cxn_Pool_Async/*.t t/60_Cxn_Async/*.t t/70_Helper_Async/*.t t/90_Client_Spec_Async/*.t"
   }

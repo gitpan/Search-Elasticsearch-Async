@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Async::Util;
-$Search::Elasticsearch::Async::Util::VERSION = '1.17';
+$Search::Elasticsearch::Async::Util::VERSION = '1.18';
 use Moo;
 use Scalar::Util qw(blessed);
 use Sub::Exporter -setup => { exports => ['thenable'] };
@@ -29,7 +29,7 @@ Search::Elasticsearch::Async::Util - A utility class for internal use by Elastic
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 AUTHOR
 
@@ -37,7 +37,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 

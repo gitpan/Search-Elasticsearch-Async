@@ -1,5 +1,5 @@
 package Search::Elasticsearch::Async::Bulk;
-$Search::Elasticsearch::Async::Bulk::VERSION = '1.17';
+$Search::Elasticsearch::Async::Bulk::VERSION = '1.18';
 use Moo;
 with 'Search::Elasticsearch::Role::Bulk',
     'Search::Elasticsearch::Role::Is_Async';
@@ -206,7 +206,7 @@ Search::Elasticsearch::Async::Bulk - A helper module for the Bulk API and for re
 
 =head1 VERSION
 
-version 1.17
+version 1.18
 
 =head1 SYNOPSIS
 
@@ -733,7 +733,7 @@ Clinton Gormley <drtech@cpan.org>
 
 =head1 COPYRIGHT AND LICENSE
 
-This software is Copyright (c) 2014 by Elasticsearch BV.
+This software is Copyright (c) 2015 by Elasticsearch BV.
 
 This is free software, licensed under:
 
